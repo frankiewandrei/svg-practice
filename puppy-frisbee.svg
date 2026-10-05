@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2a63"/>
+      <stop offset="0.6" stop-color="#8a5b9e"/>
+      <stop offset="1" stop-color="#f2a25c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#dusk)"/>
+
+  <!-- stars -->
+  <g fill="#fff8d6">
+    <circle cx="50" cy="45" r="2.5"/>
+    <circle cx="120" cy="28" r="1.8"/>
+    <circle cx="200" cy="60" r="2.2"/>
+    <circle cx="265" cy="35" r="1.6"/>
+    <circle cx="350" cy="70" r="2.4"/>
+    <circle cx="85" cy="95" r="1.7"/>
+    <circle cx="160" cy="80" r="1.4"/>
+    <path d="M 300 100 l 3 8 l 8 3 l -8 3 l -3 8 l -3 -8 l -8 -3 l 8 -3 z"/>
+  </g>
+
+  <!-- low sun -->
+  <circle cx="330" cy="250" r="34" fill="#ffd98a" opacity="0.9"/>
+
+  <!-- clouds -->
+  <g fill="#ffd0b0" opacity="0.45">
+    <ellipse cx="70" cy="185" rx="40" ry="12"/>
+    <ellipse cx="105" cy="178" rx="30" ry="10"/>
+  </g>
+
+  <!-- ground -->
+  <rect y="330" width="400" height="70" fill="#2f5d3a"/>
+  <rect y="330" width="400" height="10" fill="#3f7a4b"/>
+  <ellipse cx="205" cy="336" rx="80" ry="8" fill="#24492e" opacity="0.75"/>
+
+  <!-- grass tufts -->
+  <g stroke="#3f7a4b" stroke-width="3" stroke-linecap="round">
+    <path d="M 40 330 l -4 -16 M 40 330 l 4 -14 M 40 330 l 10 -10"/>
+    <path d="M 350 330 l -5 -15 M 350 330 l 5 -13 M 350 330 l -10 -9"/>
+  </g>
+
+  <!-- frisbee and its trail -->
+  <g>
+    <g stroke="#ffd0b0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6">
+      <path d="M 150 118 q 60 -34 130 -26"/>
+      <path d="M 140 140 q 66 -34 138 -26" opacity="0.7"/>
+    </g>
+    <g transform="rotate(-18 330 88)">
+      <ellipse cx="330" cy="88" rx="34" ry="11" fill="#ff5f5f"/>
+      <ellipse cx="330" cy="83" rx="34" ry="11" fill="#ff8a5c"/>
+      <ellipse cx="330" cy="83" rx="15" ry="5" fill="#ffb38a" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- motion lines behind the puppy -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.45">
+    <path d="M 80 215 q 16 -6 30 -4"/>
+    <path d="M 88 262 q 18 -4 32 0"/>
+    <path d="M 96 300 q 14 -4 26 -6"/>
+  </g>
+
+  <g>
+    <!-- tail up -->
+    <path d="M 146 206 Q 112 190 104 156" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- back legs -->
+    <path d="M 152 238 Q 120 252 104 274" fill="none" stroke="#f4f6f8" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 164 248 Q 146 280 152 306" fill="none" stroke="#e7ebef" stroke-width="17" stroke-linecap="round"/>
+
+    <!-- body -->
+    <ellipse cx="200" cy="228" rx="62" ry="36" fill="#ffffff" transform="rotate(-12 200 228)"/>
+    <ellipse cx="205" cy="242" rx="44" ry="20" fill="#eef1f4" opacity="0.75" transform="rotate(-12 205 242)"/>
+
+    <!-- front legs reaching out -->
+    <path d="M 256 236 Q 292 250 312 272" fill="none" stroke="#f4f6f8" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 242 250 Q 262 280 268 302" fill="none" stroke="#e7ebef" stroke-width="17" stroke-linecap="round"/>
+
+    <!-- collar -->
+    <path d="M 232 208 Q 250 218 256 234" fill="none" stroke="#2f80ed" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- floppy ear -->
+    <ellipse cx="256" cy="146" rx="15" ry="30" fill="#e7ebef" transform="rotate(-28 256 146)"/>
+
+    <!-- head -->
+    <circle cx="272" cy="180" r="31" fill="#ffffff"/>
+
+    <!-- muzzle -->
+    <ellipse cx="294" cy="192" rx="17" ry="13" fill="#ffffff"/>
+    <circle cx="304" cy="186" r="5" fill="#2d2d2d"/>
+
+    <!-- eye -->
+    <circle cx="281" cy="172" r="4.5" fill="#2d2d2d"/>
+    <circle cx="282.5" cy="170.5" r="1.4" fill="#ffffff"/>
+
+    <!-- open smile and tongue -->
+    <path d="M 292 200 q 12 12 22 2" fill="none" stroke="#2d2d2d" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M 298 205 q 5 12 12 9 q 1 -9 -4 -11 z" fill="#ff7a8a"/>
+  </g>
+</svg>

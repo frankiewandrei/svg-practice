@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="mint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdeffb"/>
+      <stop offset="1" stop-color="#f4fbef"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#mint)"/>
+
+  <!-- soft clouds -->
+  <g fill="#ffffff" opacity="0.75">
+    <ellipse cx="85" cy="70" rx="42" ry="17"/>
+    <ellipse cx="112" cy="63" rx="30" ry="14"/>
+    <ellipse cx="300" cy="55" rx="34" ry="14"/>
+    <ellipse cx="322" cy="49" rx="24" ry="11"/>
+  </g>
+
+  <!-- rolling grass -->
+  <ellipse cx="200" cy="410" rx="260" ry="90" fill="#8ed16e"/>
+  <rect y="345" width="400" height="55" fill="#8ed16e"/>
+  <rect y="345" width="400" height="8" fill="#a5dd8a"/>
+
+  <!-- flowers -->
+  <g>
+    <g transform="translate(48 348)">
+      <g fill="#ffffff">
+        <circle cx="0" cy="-6" r="4"/><circle cx="6" cy="0" r="4"/>
+        <circle cx="0" cy="6" r="4"/><circle cx="-6" cy="0" r="4"/>
+      </g>
+      <circle cx="0" cy="0" r="4" fill="#ffd45e"/>
+    </g>
+    <g transform="translate(360 360)">
+      <g fill="#ffd9ec">
+        <circle cx="0" cy="-6" r="4"/><circle cx="6" cy="0" r="4"/>
+        <circle cx="0" cy="6" r="4"/><circle cx="-6" cy="0" r="4"/>
+      </g>
+      <circle cx="0" cy="0" r="4" fill="#ff9ec4"/>
+    </g>
+    <g transform="translate(320 344)">
+      <g fill="#ffffff">
+        <circle cx="0" cy="-5" r="3.5"/><circle cx="5" cy="0" r="3.5"/>
+        <circle cx="0" cy="5" r="3.5"/><circle cx="-5" cy="0" r="3.5"/>
+      </g>
+      <circle cx="0" cy="0" r="3.5" fill="#ffd45e"/>
+    </g>
+  </g>
+
+  <!-- ball and its arc -->
+  <path d="M 316 150 Q 250 210 200 250" fill="none" stroke="#ffffff"
+        stroke-width="3" stroke-dasharray="7 9" stroke-linecap="round" opacity="0.85"/>
+  <g>
+    <circle cx="334" cy="134" r="17" fill="#ff5f6d"/>
+    <path d="M 319 124 q 15 -6 30 4" fill="none" stroke="#ff9aa4" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="328" cy="127" r="4" fill="#ffffff" opacity="0.85"/>
+  </g>
+
+  <!-- motion streaks behind the puppy -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M 70 214 q 16 -8 32 -6"/>
+    <path d="M 62 258 q 16 -6 32 -4"/>
+    <path d="M 68 300 q 14 -6 28 -6"/>
+  </g>
+
+  <!-- puppy mid jump -->
+  <g transform="translate(0 -26)">
+    <!-- tail -->
+    <path d="M 122 238 Q 92 220 88 186" fill="none" stroke="#ffffff"
+          stroke-width="14" stroke-linecap="round"/>
+
+    <!-- back legs stretched back and down -->
+    <path d="M 132 268 Q 102 292 90 314" fill="none" stroke="#f4f6f8"
+          stroke-width="17" stroke-linecap="round"/>
+    <path d="M 147 282 Q 124 312 120 330" fill="none" stroke="#e8ecf0"
+          stroke-width="16" stroke-linecap="round"/>
+
+    <!-- body -->
+    <ellipse cx="175" cy="255" rx="58" ry="36" fill="#ffffff"
+             transform="rotate(-12 175 255)"/>
+    <ellipse cx="178" cy="268" rx="42" ry="19" fill="#eef1f4" opacity="0.8"
+             transform="rotate(-12 178 268)"/>
+
+    <!-- front legs reaching up toward the ball -->
+    <path d="M 232 254 Q 272 236 296 222" fill="none" stroke="#f4f6f8"
+          stroke-width="17" stroke-linecap="round"/>
+    <path d="M 222 270 Q 256 262 276 250" fill="none" stroke="#e8ecf0"
+          stroke-width="15" stroke-linecap="round"/>
+
+    <!-- collar -->
+    <path d="M 226 214 Q 244 224 252 240" fill="none" stroke="#34c98f"
+          stroke-width="9" stroke-linecap="round"/>
+
+    <!-- ears flying up -->
+    <ellipse cx="246" cy="170" rx="14" ry="27" fill="#eef1f4"
+             transform="rotate(-30 246 170)"/>
+    <ellipse cx="278" cy="164" rx="12" ry="24" fill="#e8ecf0"
+             transform="rotate(18 278 164)"/>
+
+    <!-- head -->
+    <circle cx="265" cy="205" r="33" fill="#ffffff"/>
+
+    <!-- muzzle -->
+    <ellipse cx="289" cy="216" rx="16" ry="12" fill="#ffffff"/>
+    <circle cx="299" cy="210" r="5" fill="#2d2d2d"/>
+
+    <!-- eye -->
+    <circle cx="273" cy="197" r="4.6" fill="#2d2d2d"/>
+    <circle cx="274.5" cy="195.5" r="1.5" fill="#ffffff"/>
+
+    <!-- smile and tongue -->
+    <path d="M 292 223 q 10 11 20 2" fill="none" stroke="#2d2d2d"
+          stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M 296 227 q 5 11 11 8 q 1 -8 -4 -10 z" fill="#ff7a8a"/>
+  </g>
+
+  <!-- shadow on the grass -->
+  <ellipse cx="165" cy="356" rx="62" ry="9" fill="#69b34f" opacity="0.55"/>
+</svg>

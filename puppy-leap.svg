@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ec8f2"/>
+      <stop offset="1" stop-color="#d8f0fc"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd374"/>
+      <stop offset="1" stop-color="#5fae4a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="80" cy="80" rx="35" ry="18"/>
+    <ellipse cx="105" cy="72" rx="28" ry="16"/>
+    <ellipse cx="310" cy="115" rx="30" ry="15"/>
+    <ellipse cx="332" cy="108" rx="22" ry="13"/>
+  </g>
+
+  <!-- ground -->
+  <rect y="350" width="400" height="50" fill="url(#grass)"/>
+  <ellipse cx="205" cy="357" rx="55" ry="7" fill="#4c9440" opacity="0.55"/>
+
+  <!-- motion lines trailing the jump -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.7" fill="none">
+    <path d="M 88 170 q 18 -8 34 -6"/>
+    <path d="M 98 220 q 20 -4 36 0"/>
+    <path d="M 92 270 q 16 -6 30 -8"/>
+  </g>
+
+  <g transform="rotate(-8 210 220)">
+    <!-- tail -->
+    <path d="M 138 208 Q 100 185 92 148" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- back legs stretched out -->
+    <path d="M 150 245 Q 115 260 96 282" fill="none" stroke="#f7f7f7" stroke-width="19" stroke-linecap="round"/>
+    <path d="M 168 255 Q 140 285 128 300" fill="none" stroke="#ececec" stroke-width="17" stroke-linecap="round"/>
+
+    <!-- body -->
+    <ellipse cx="210" cy="225" rx="72" ry="44" fill="#ffffff"/>
+    <ellipse cx="212" cy="240" rx="52" ry="26" fill="#f2f2f2" opacity="0.8"/>
+
+    <!-- front legs reaching forward -->
+    <path d="M 258 238 Q 295 255 310 285" fill="none" stroke="#f7f7f7" stroke-width="19" stroke-linecap="round"/>
+    <path d="M 244 250 Q 265 285 268 305" fill="none" stroke="#ececec" stroke-width="17" stroke-linecap="round"/>
+
+    <!-- collar -->
+    <path d="M 238 205 Q 252 218 258 232" fill="none" stroke="#e74c3c" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- ears flying up from the leap -->
+    <ellipse cx="258" cy="142" rx="13" ry="28" fill="#f0f0f0" transform="rotate(-28 258 142)"/>
+    <ellipse cx="290" cy="138" rx="12" ry="26" fill="#e6e6e6" transform="rotate(20 290 138)"/>
+
+    <!-- head -->
+    <circle cx="282" cy="185" r="37" fill="#ffffff"/>
+
+    <!-- snout -->
+    <ellipse cx="308" cy="197" rx="17" ry="13" fill="#ffffff"/>
+    <circle cx="320" cy="193" r="5.5" fill="#333333"/>
+
+    <!-- happy closed eye -->
+    <path d="M 268 176 q 8 -8 16 0" fill="none" stroke="#333333" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- mouth and tongue -->
+    <path d="M 312 204 q 8 8 16 3" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 315 207 q 4 12 12 10 q 3 -9 -3 -12 z" fill="#ff9aa2"/>
+  </g>
+
+  <!-- grass tufts -->
+  <g fill="#4c9440">
+    <path d="M 40 352 l 6 -18 l 6 18 z"/>
+    <path d="M 330 352 l 5 -15 l 5 15 z"/>
+    <path d="M 300 356 l 5 -12 l 5 12 z"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="meadowSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8d9ff"/>
+      <stop offset="1" stop-color="#fff6e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#meadowSky)"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="75" cy="65" rx="38" ry="15"/>
+    <ellipse cx="100" cy="58" rx="26" ry="12"/>
+    <ellipse cx="300" cy="45" rx="30" ry="12"/>
+  </g>
+
+  <!-- meadow -->
+  <ellipse cx="200" cy="410" rx="260" ry="85" fill="#7ec86a"/>
+  <rect y="350" width="400" height="50" fill="#7ec86a"/>
+  <ellipse cx="190" cy="358" rx="65" ry="9" fill="#5da24d" opacity="0.55"/>
+
+  <!-- butterfly flight path -->
+  <path d="M 250 90 Q 285 105 315 125 Q 335 145 328 170" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="6 8" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- butterfly -->
+  <g transform="translate(328 165) rotate(15)">
+    <ellipse cx="-11" cy="0" rx="12" ry="8" fill="#ff8ac2"/>
+    <ellipse cx="11" cy="0" rx="12" ry="8" fill="#8ab6ff"/>
+    <ellipse cx="-11" cy="0" rx="6" ry="4" fill="#ffd1e8"/>
+    <ellipse cx="11" cy="0" rx="6" ry="4" fill="#c9ddff"/>
+    <rect x="-2" y="-9" width="4" height="18" rx="2" fill="#333333"/>
+  </g>
+
+  <!-- motion streaks -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.65">
+    <path d="M 68 220 q 16 -7 30 -5"/>
+    <path d="M 60 262 q 17 -5 32 -3"/>
+  </g>
+
+  <!-- puppy mid jump -->
+  <g transform="translate(0 -18)">
+    <!-- tail -->
+    <path d="M 125 240 Q 95 225 92 192" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- back legs tucked -->
+    <path d="M 135 270 Q 108 288 98 310" fill="none" stroke="#f4f6f8" stroke-width="17" stroke-linecap="round"/>
+    <path d="M 150 282 Q 132 308 130 328" fill="none" stroke="#e8ecf0" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- body -->
+    <ellipse cx="180" cy="257" rx="58" ry="35" fill="#ffffff" transform="rotate(-14 180 257)"/>
+    <ellipse cx="183" cy="270" rx="42" ry="18" fill="#eef1f4" opacity="0.8" transform="rotate(-14 183 270)"/>
+
+    <!-- front legs reaching up -->
+    <path d="M 235 252 Q 270 232 292 210" fill="none" stroke="#f4f6f8" stroke-width="17" stroke-linecap="round"/>
+    <path d="M 226 269 Q 254 256 272 242" fill="none" stroke="#e8ecf0" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- collar -->
+    <path d="M 228 216 Q 245 226 252 242" fill="none" stroke="#9b59b6" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- ears -->
+    <ellipse cx="248" cy="172" rx="13" ry="26" fill="#eef1f4" transform="rotate(-30 248 172)"/>
+    <ellipse cx="278" cy="167" rx="12" ry="24" fill="#e8ecf0" transform="rotate(20 278 167)"/>
+
+    <!-- head -->
+    <circle cx="266" cy="207" r="32" fill="#ffffff"/>
+    <ellipse cx="289" cy="218" rx="15" ry="11" fill="#ffffff"/>
+    <circle cx="299" cy="212" r="5" fill="#2d2d2d"/>
+
+    <!-- eye, smile, tongue -->
+    <circle cx="274" cy="199" r="4.5" fill="#2d2d2d"/>
+    <circle cx="275.5" cy="197.5" r="1.4" fill="#ffffff"/>
+    <path d="M 292 225 q 10 10 19 2" fill="none" stroke="#2d2d2d" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M 296 229 q 4 10 10 8 q 1 -8 -4 -10 z" fill="#ff7a8a"/>
+  </g>
+</svg>

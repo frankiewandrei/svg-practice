@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="morning" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd5a3"/>
+      <stop offset="0.4" stop-color="#fff8e7"/>
+      <stop offset="1" stop-color="#e8f5e9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#morning)"/>
+
+  <!-- morning sun rays -->
+  <g stroke="#ffd5a3" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <path d="M 20 20 l 30 0"/><path d="M 20 60 l 35 0"/><path d="M 20 100 l 25 0"/>
+    <path d="M 380 20 l -30 0"/><path d="M 380 60 l -35 0"/><path d="M 380 100 l -25 0"/>
+  </g>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="100" cy="70" rx="35" ry="16"/>
+    <ellipse cx="125" cy="62" rx="26" ry="13"/>
+    <ellipse cx="280" cy="85" rx="30" ry="13"/>
+    <ellipse cx="305" cy="78" rx="22" ry="11"/>
+  </g>
+
+  <!-- grassy hill -->
+  <ellipse cx="200" cy="420" rx="250" ry="80" fill="#81c784"/>
+  <rect y="355" width="400" height="45" fill="#81c784"/>
+  <rect y="355" width="400" height="6" fill="#a5d6a7"/>
+
+  <!-- flowers -->
+  <g fill="#ff6f91">
+    <circle cx="60" cy="360" r="3"/><circle cx="70" cy="366" r="2.5"/>
+    <circle cx="340" cy="362" r="3"/><circle cx="330" cy="370" r="2.5"/>
+    <circle cx="150" cy="358" r="2.5"/><circle cx="250" cy="365" r="3"/>
+  </g>
+
+  <!-- motion blur lines -->
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.5">
+    <path d="M 90 200 q 15 -10 30 -8"/>
+    <path d="M 95 240 q 14 -8 28 -6"/>
+    <path d="M 85 280 q 16 -6 32 -4"/>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ffe082" transform="translate(320 150)">
+    <path d="M 0 -10 l 3 10 l 10 3 l -10 3 l -3 10 l -3 -10 l -10 -3 l 10 -3 z"/>
+  </g>
+  <g fill="#ffe082" transform="translate(50 180)">
+    <path d="M 0 -8 l 2 8 l 8 2 l -8 2 l -2 8 l -2 -8 l -8 -2 l 8 -2 z"/>
+  </g>
+
+  <!-- puppy mid-air, front-facing, paws outstretched -->
+  <g transform="translate(0 -30)">
+    <!-- tail -->
+    <path d="M 198 270 Q 225 250 230 210" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+
+    <!-- back legs tucked -->
+    <path d="M 145 280 Q 120 295 110 320" fill="none" stroke="#f5f5f5" stroke-width="17" stroke-linecap="round"/>
+    <path d="M 255 280 Q 280 295 290 320" fill="none" stroke="#eaeaea" stroke-width="17" stroke-linecap="round"/>
+
+    <!-- body -->
+    <ellipse cx="200" cy="270" rx="55" ry="38" fill="#ffffff"/>
+    <ellipse cx="200" cy="285" rx="38" ry="22" fill="#f0f0f0" opacity="0.8"/>
+
+    <!-- front paws reaching up -->
+    <ellipse cx="165" cy="305" rx="16" ry="20" fill="#ffffff"/>
+    <ellipse cx="235" cy="305" rx="16" ry="20" fill="#f5f5f5"/>
+    <g fill="#ffb3c6">
+      <ellipse cx="160" cy="308" rx="5" ry="3"/>
+      <ellipse cx="170" cy="308" rx="5" ry="3"/>
+      <ellipse cx="165" cy="314" rx="5" ry="3"/>
+      <ellipse cx="230" cy="308" rx="5" ry="3"/>
+      <ellipse cx="240" cy="308" rx="5" ry="3"/>
+      <ellipse cx="235" cy="314" rx="5" ry="3"/>
+    </g>
+
+    <!-- collar with bell -->
+    <path d="M 160 230 Q 200 245 240 230" fill="none" stroke="#29b6f6" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="200" cy="246" rx="8" ry="5" fill="#fff9c4" stroke="#fbc02d" stroke-width="1.5"/>
+    <circle cx="200" cy="249" r="2" fill="#fbc02d"/>
+
+    <!-- ears flying up -->
+    <ellipse cx="160" cy="175" rx="15" ry="30" fill="#f0f0f0" transform="rotate(-28 160 175)"/>
+    <ellipse cx="240" cy="175" rx="15" ry="30" fill="#e8e8e8" transform="rotate(28 240 175)"/>
+    <ellipse cx="160" cy="178" rx="7" ry="18" fill="#ffcdd2" transform="rotate(-28 160 178)"/>
+    <ellipse cx="240" cy="178" rx="7" ry="18" fill="#ffcdd2" transform="rotate(28 240 178)"/>
+
+    <!-- head -->
+    <circle cx="200" cy="210" r="42" fill="#ffffff"/>
+
+    <!-- eyes -->
+    <circle cx="183" cy="200" r="7" fill="#333333"/>
+    <circle cx="217" cy="200" r="7" fill="#333333"/>
+    <circle cx="185" cy="198" r="2.2" fill="#ffffff"/>
+    <circle cx="219" cy="198" r="2.2" fill="#ffffff"/>
+
+    <!-- blush -->
+    <circle cx="168" cy="218" r="8" fill="#ffab91" opacity="0.7"/>
+    <circle cx="232" cy="218" r="8" fill="#ffab91" opacity="0.7"/>
+
+    <!-- nose -->
+    <ellipse cx="200" cy="218" rx="8" ry="6" fill="#333333"/>
+
+    <!-- happy open mouth, tongue -->
+    <path d="M 184 226 Q 200 248 216 226 Q 200 234 184 226 z" fill="#d7ccc8"/>
+    <path d="M 190 230 Q 200 252 210 230 Q 200 238 190 230 z" fill="#ff8a8a"/>
+  </g>
+
+  <!-- shadow -->
+  <ellipse cx="200" cy="362" rx="65" ry="9" fill="#5d8a5f" opacity="0.5"/>
+</svg>
